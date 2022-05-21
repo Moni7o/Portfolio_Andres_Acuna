@@ -9,16 +9,19 @@ div{
 
 #nombre {
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 25%;
+    font-size: 24px;
 }
 @media (min-width: 578px) {
 #fotodeperfil{ 
     position: absolute;
     border-radius: 100%;
     width: 15%;
-    box-shadow: 3px 3px 3px rgb(233, 224, 194); 
+    box-shadow: 5px 5px 5px black; 
     left: 2%;
-    top: 275px;
+    top: 350px;
+    border-color: black;
+    border: 5px solid black;
 }
 }
 
@@ -26,9 +29,15 @@ div{
     #fotodeperfil{ 
         position: absolute;
         border-radius: 100%;
-        width: 15%;
-        box-shadow: 3px 3px 3px rgb(233, 224, 194); 
+        width: 20%;
+        box-shadow: 5px 5px 5px black;
         left: 42%;
         top: 240px;
+        border-color: black;
+        border: 5px solid black;
     }
     }
+
+#acercade{
+    margin-top: 3%;
+}
