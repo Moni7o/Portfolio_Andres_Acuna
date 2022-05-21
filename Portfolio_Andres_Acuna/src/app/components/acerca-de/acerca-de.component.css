@@ -1,0 +1,34 @@
+
+
+div{
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgb(233, 224, 194);
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+}
+@media (min-width: 578px) {
+#fotodeperfil{ 
+    position: absolute;
+    border-radius: 100%;
+    width: 15%;
+    box-shadow: 3px 3px 3px rgb(233, 224, 194); 
+    left: 2%;
+    top: 275px;
+}
+}
+
+@media (max-width: 577px) {
+    #fotodeperfil{ 
+        position: absolute;
+        border-radius: 100%;
+        width: 15%;
+        box-shadow: 3px 3px 3px rgb(233, 224, 194); 
+        left: 42%;
+        top: 240px;
+    }
+    }

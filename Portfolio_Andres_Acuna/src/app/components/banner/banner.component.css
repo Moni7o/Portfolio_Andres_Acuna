@@ -4,4 +4,5 @@ img {
 .centrar{
     margin: auto;
     display: block;
+    width: 100%;
 }
