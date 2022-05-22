@@ -3,7 +3,23 @@ div{
     width: 100%;
 }
 
+
+@media (min-width: 450px){
+#logo, #social {
+    width: 50%;
+}
 app-social {
     float: right;
     margin-top: 30px;
+}
+}
+
+@media (max-width:449px){
+    app-social{
+    margin-top: 30px;
+    }
+
+    app-logo-ap{
+    margin-top: 30px;
+    }
 }
