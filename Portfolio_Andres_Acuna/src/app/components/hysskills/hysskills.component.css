@@ -1,0 +1,10 @@
+div{
+    background-color: black;
+    text-align: left;
+    font-family: 'Montserrat';
+    color: rgb(233, 224, 194);
+}
+
+.row{
+    padding: 25px;
+}
