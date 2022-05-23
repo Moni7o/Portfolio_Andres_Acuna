@@ -7,3 +7,16 @@ div{
 .row{
     padding: 20px;
 }
+
+.contenedor{
+    width: auto;
+}
+
+.parte1, .parte2{ 
+    display: inline-block;
+    text-align: left;
+}
+
+.img-fluid{
+    box-shadow: 5px 5px 15px rgb(32, 32, 32)
+}
