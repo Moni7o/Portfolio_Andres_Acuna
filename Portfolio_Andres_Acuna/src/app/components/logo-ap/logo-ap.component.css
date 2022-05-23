@@ -1,3 +1,26 @@
 #logoAP{
     width: 150px;
 }
+
+img{ 
+    width: 40px;
+    padding: 0px 4px 0px 4px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* para los celulares */
+@media (max-width: 578px){
+    .container{
+        flex-direction: column;
+    }
+
+    .social{
+        display: flex;
+       /* flex-direction: column;*/
+    }
+}
