@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.acunaportfolio.Aacuna.Service;
 
 import com.acunaportfolio.Aacuna.Entity.Persona;
@@ -11,10 +8,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author oscar
- */
+
 @Service
 public class ImpPersonaService implements IPersonaService{
     @Autowired IPersonaRepository ipersonaRepository;
