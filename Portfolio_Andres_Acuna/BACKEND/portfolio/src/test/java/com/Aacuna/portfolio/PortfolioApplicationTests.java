@@ -1,10 +1,10 @@
-package com.acunaportfolio.Aacuna;
+package com.Aacuna.portfolio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AacunaApplicationTests {
+class PortfolioApplicationTests {
 
 	@Test
 	void contextLoads() {

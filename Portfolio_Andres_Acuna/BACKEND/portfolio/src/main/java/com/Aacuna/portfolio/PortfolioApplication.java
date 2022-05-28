@@ -1,13 +1,13 @@
-package com.acunaportfolio.Aacuna;
+package com.Aacuna.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AacunaApplication {
+public class PortfolioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AacunaApplication.class, args);
+		SpringApplication.run(PortfolioApplication.class, args);
 	}
 
 }
