@@ -1,5 +1,9 @@
-<div class="row">
+<div *ngIf="usuario">
+   <h1>{{usuario.nombre}}</h1> 
+</div>
 
+
+<div class="row">
     <app-logo-ap></app-logo-ap>
     <app-banner></app-banner>
 </div>
